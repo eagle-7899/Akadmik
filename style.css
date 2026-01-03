@@ -1,22 +1,19 @@
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 1440px;
-  height: 91px;
-  padding: 16px 170px;
-  background-color: #ffffff;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff
 }
 .kirish-logo{
     width: 227px;
     height: 59.18px;
 }
 .nav-list {
+    list-style: none;
+}
+.nav-list a {
     font-weight: 500;
     font-family: roboto,sans-serif;
     letter-spacing: 1px;
     font-size: 13px;
+    line-height: 15px;
     text-transform: uppercase;
     text-decoration: none;
     color: black;
@@ -31,36 +28,23 @@ header {
     text-decoration: none;
 }
 .coding-section {
-    display: flex;
-    align-items: flex-start;
-    width: 1440px;
-    height: 488px;
     background-color: #252420;
 }
 .coding-div {
-    position: absolute;
-    width: 387px;
-    height: 328px;   
-    top: 177px;
-    left: 170px; 
+    width: 387px;  
 }
 .pyton-img{
-    position: absolute;
     width: 550px;
     height: 550px;
-    top: 157px;
-    left: 760px;
 }
 .coding-h2 {
     width: 339px;
-    height: 96px;
     font-size: 40px;
     letter-spacing: 0.5px;
     color: #ffffff;
 }
 .coding-p {
     width: 387px;
-    height: 96px;
     letter-spacing: 0.5px;
     font-size: 16px;
     color: #ffffff;
@@ -71,4 +55,84 @@ header {
     font-size: 13px;
     letter-spacing: 0.5px;
     text-decoration: none;
+}
+.hero-line {
+    background-color: #FF7500;
+    width: 80px;
+    height: 3px;
+}
+.reason-h2{
+    width: 435px;
+    font-size: 72px;
+    letter-spacing: 0.5px;
+    font: roboto condensed, bold;
+    line-height: 120%;
+}
+.cursor-features {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 117, 0, 0.2);
+}
+.features {
+    width: 340px;
+}
+.features-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    font-style: roboto condensed, bold;
+}
+.features-info {
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    line-height: 150%;
+    font: roboto, bold;
+    color: rgba(0, 0, 0, 1);
+}
+.section-books {
+    background-color: rgba(37, 36, 32, 1);
+    color: rgba(255, 255, 255, 1);
+}
+.books-header {
+    line-height: 120%;
+    font-weight: 700;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    font: roboto condensed, bold;
+}
+.books-text{
+    font: roboto, bold;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+}
+.books-strong {
+    color: #FF7500;
+}
+.books-img {
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+}
+.site-footer ul {
+    background-color: rgba(248, 248, 248, 1);
+    list-style: none;
+}
+.site-footer-div {
+    height: 2px;
+    background-color: rgba(248, 248, 248, 1);
+}
+.site-footer-links {
+    list-style: none;
+    width: 224px;
+}
+.site-footer-links a {
+    font: roboto,bold;
+    color: rgba(37, 36, 32, 1);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
 }
