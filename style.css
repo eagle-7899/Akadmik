@@ -1,3 +1,9 @@
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: "Roboto","Arial", sans-serif ;
+    letter-spacing: 0.5px;
+}
 header {
   background-color: #ffffff
 }
@@ -22,7 +28,6 @@ header {
     color: #ffffff;
     font-weight: 700;
     font-size: 13px;
-    letter-spacing: 0.5px;
     background-color: #FF7500;
     text-transform: none;
     text-decoration: none;
@@ -40,20 +45,16 @@ header {
 .coding-h2 {
     width: 339px;
     font-size: 40px;
-    letter-spacing: 0.5px;
     color: #ffffff;
 }
 .coding-p {
     width: 387px;
-    letter-spacing: 0.5px;
-    font-size: 16px;
     color: #ffffff;
 }
 .coding-pyton {
     color: #ffffff;
     background-color: #FF7500;
     font-size: 13px;
-    letter-spacing: 0.5px;
     text-decoration: none;
 }
 .hero-line {
@@ -64,8 +65,7 @@ header {
 .reason-h2{
     width: 435px;
     font-size: 72px;
-    letter-spacing: 0.5px;
-    font: roboto condensed, bold;
+    font-family: "Roboto Condensed", "Arial" sans-serif;
     line-height: 120%;
 }
 .cursor-features {
@@ -80,15 +80,10 @@ header {
     font-size: 24px;
     font-weight: 700;
     line-height: 120%;
-    letter-spacing: 0.5px;
-    font-style: roboto condensed, bold;
+    font-family: "Roboto Rondensed", sans-serif;
 }
 .features-info {
     font-weight: 400;
-    font-size: 16px;
-    letter-spacing: 0.5px;
-    line-height: 150%;
-    font: roboto, bold;
     color: rgba(0, 0, 0, 1);
 }
 .section-books {
@@ -99,14 +94,9 @@ header {
     line-height: 120%;
     font-weight: 700;
     font-size: 40px;
-    letter-spacing: 0.5px;
-    font: roboto condensed, bold;
+    font-family: "roboto condensed", sans-serif;
 }
 .books-text{
-    font: roboto, bold;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.5px;
     font-weight: 400;
 }
 .books-strong {
@@ -130,9 +120,7 @@ header {
     width: 224px;
 }
 .site-footer-links a {
-    font: roboto,bold;
     color: rgba(37, 36, 32, 1);
     text-decoration: none;
-    font-size: 16px;
     line-height: 19px;
 }
