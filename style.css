@@ -5,7 +5,14 @@ body {
     letter-spacing: 0.5px;
 }
 header {
-  background-color: #ffffff
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header-right {
+    display: flex;
+    align-items: center;
 }
 .kirish-logo{
     width: 227px;
@@ -13,6 +20,7 @@ header {
 }
 .nav-list {
     list-style: none;
+    display: flex;
 }
 .nav-list a {
     font-weight: 500;
@@ -34,9 +42,12 @@ header {
 }
 .coding-section {
     background-color: #252420;
+    align-items: center;
+    justify-content: space-between; 
+    display: flex;
 }
 .coding-div {
-    width: 387px;  
+    width: 390px;
 }
 .pyton-img{
     width: 550px;
@@ -56,6 +67,11 @@ header {
     background-color: #FF7500;
     font-size: 13px;
     text-decoration: none;
+}
+.features-all {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .hero-line {
     background-color: #FF7500;
@@ -87,8 +103,14 @@ header {
     color: rgba(0, 0, 0, 1);
 }
 .section-books {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: rgba(37, 36, 32, 1);
     color: rgba(255, 255, 255, 1);
+}
+.books {
+    width: 440px;
 }
 .books-header {
     line-height: 120%;
@@ -107,6 +129,13 @@ header {
     height: 440px;
     object-fit: cover;
 }
+.site-footerbosh {
+    display: flex;
+    justify-content: space-between;
+}
+.messengers {
+    display: flex;
+}
 .site-footer ul {
     background-color: rgba(248, 248, 248, 1);
     list-style: none;
@@ -123,4 +152,8 @@ header {
     color: rgba(37, 36, 32, 1);
     text-decoration: none;
     line-height: 19px;
+}
+.sofooter {
+    display: flex;
+    justify-content: space-between;
 }
