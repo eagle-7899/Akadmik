@@ -13,10 +13,16 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  border-top: 5px solid #FF7500;
+  padding-bottom: 16px;
+  padding-top: 16px;
 }
 .header-right {
     display: flex;
     align-items: center;
+}
+.header-right ul { 
+    padding: 0%;
 }
 .kirish-logo {
     width: 227px;
@@ -53,6 +59,7 @@ header {
     color: black;
 }
 .main-link {
+    display: inline-block;
     color: #ffffff;
     font-weight: 700;
     font-size: 13px;
@@ -60,6 +67,8 @@ header {
     text-transform: none;
     text-decoration: none;
     transition: opacity 0.4s ease;
+    padding: 12px 24px;
+    border-radius: 4px;
 }
 .main-link :hover {
     opacity: 0.8;
@@ -75,10 +84,13 @@ header {
 }
 .coding-div {
     width: 390px;
+    padding-bottom: 80px;
+    padding-top: 80px;
 }
 .pyton-img{
     width: 550px;
     height: 550px;
+    border-radius: 8px;
 }
 .coding-h2 {
     width: 339px;
@@ -99,11 +111,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    list-style: none;
+    padding-left: 0%;
 }
 .hero-line {
     background-color: #FF7500;
     width: 80px;
     height: 3px;
+    border: none;
 }
 .reason-h2{
     width: 435px;
@@ -115,6 +130,7 @@ header {
     width: 100px;
     height: 100px;
     background-color: rgba(255, 117, 0, 0.2);
+    border-radius: 50%;
 }
 .features {
     width: 340px;
@@ -135,6 +151,11 @@ header {
     justify-content: space-between;
     background-color: rgba(37, 36, 32, 1);
     color: rgba(255, 255, 255, 1);
+    border-radius: 12px;
+}
+.section1 {
+    padding-top: 120px;
+    padding-bottom: 160px;
 }
 .books {
     width: 440px;
@@ -155,6 +176,7 @@ header {
     width: 440px;
     height: 440px;
     object-fit: cover;
+    border-radius: 12px;
 }
 .site-footerbosh {
     display: flex;
@@ -163,6 +185,7 @@ header {
 .messengers {
     display: flex;
     transition: color 0.4s ease, opacity 0.4s ease;
+    padding: 0%;
 }
 .messengers a {
     color: #252420;
@@ -173,6 +196,10 @@ header {
 .messengers a :active {
     opacity: 0.6;
 }
+.site-footer {
+    padding-bottom: 56px;
+    padding-top: 56px;
+}
 .site-footer ul {
     background-color: rgba(248, 248, 248, 1);
     list-style: none;
@@ -180,10 +207,12 @@ header {
 .site-footer-div {
     height: 2px;
     background-color: rgba(248, 248, 248, 1);
+    border: 0px;
 }
 .site-footer-links {
     list-style: none;
     width: 224px;
+    padding: 0%;
 }
 .site-footer-links a {
     color: rgba(37, 36, 32, 1);
