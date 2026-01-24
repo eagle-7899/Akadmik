@@ -4,6 +4,10 @@ body {
     font-family: "Roboto","Arial", sans-serif ;
     letter-spacing: 0.5px;
 }
+* :focus {
+    outline: 2px solid #FF7500;
+    outline-offset: 3px;
+}
 header {
   background-color: #ffffff;
   display: flex;
@@ -158,6 +162,16 @@ header {
 }
 .messengers {
     display: flex;
+    transition: color 0.4s ease, opacity 0.4s ease;
+}
+.messengers a {
+    color: #252420;
+}
+.messengers a :hover {
+    color: rgba(255, 117, 0, 1);
+}
+.messengers a :active {
+    opacity: 0.6;
 }
 .site-footer ul {
     background-color: rgba(248, 248, 248, 1);
