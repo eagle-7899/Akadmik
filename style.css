@@ -14,13 +14,29 @@ header {
     display: flex;
     align-items: center;
 }
-.kirish-logo{
+.kirish-logo {
     width: 227px;
     height: 59.18px;
+}
+.akademnashr-hover {
+    transition: opacity 0.4s ease;
+}
+.akademnashr-hover :hover {
+    opacity: 0.8;
+}
+.akademnashr-hover :active {
+    opacity: 0.6;
 }
 .nav-list {
     list-style: none;
     display: flex;
+    transition: color 0.4s ease, opacity 0.4s ease;
+}
+.nav-list :hover {
+    color: rgba(255, 117, 0, 1);
+}
+.nav-list :active {
+    opacity: 0.6;
 }
 .nav-list a {
     font-weight: 500;
@@ -39,6 +55,13 @@ header {
     background-color: #FF7500;
     text-transform: none;
     text-decoration: none;
+    transition: opacity 0.4s ease;
+}
+.main-link :hover {
+    opacity: 0.8;
+}
+.main-link :active {
+    opacity: 0.6;
 }
 .coding-section {
     background-color: #252420;
@@ -152,8 +175,15 @@ header {
     color: rgba(37, 36, 32, 1);
     text-decoration: none;
     line-height: 19px;
+    transition: color 0.4s ease, opacity 0.4s ease;
 }
 .sofooter {
     display: flex;
     justify-content: space-between;
+}
+.site-footer-links a :hover {
+    color: rgba(255, 117, 0, 1);
+}
+.site-footer-links a :active {
+    opacity: 0.6;
 }
