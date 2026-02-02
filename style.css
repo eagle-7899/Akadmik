@@ -138,6 +138,8 @@ header {
     background-color: #FF7500;
     font-size: 13px;
     text-decoration: none;
+    padding: 8px;
+    border-radius: 6px;
 }
 .features-all {
     display: flex;
@@ -269,23 +271,20 @@ header {
 .site-footer {
     padding-bottom: 56px;
     padding-top: 56px;
+     background-color: rgba(248, 248, 248, 1);
 }
 .site-footer ul {
-    background-color: rgba(248, 248, 248, 1);
     list-style: none;
 }
 .site-footer-div {
     height: 2px;
-    background-color: rgba(248, 248, 248, 1);
+    background-color: rgb(14, 9, 9);
     border: 0px;
     margin-top: 40px;
     margin-bottom: 64px;
 }
 .site-footer-div li {
     margin-bottom: 16px;
-}
-.site-footer-div li :last-child {
-    margin nav-right: 0px;
 }
 .site-footer-links {
     list-style: none;
