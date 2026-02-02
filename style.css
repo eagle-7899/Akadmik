@@ -1,4 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
+    padding: 0px;
+    margin: 0px;
     font-size: 16px;
     line-height: 1.5;
     font-family: "Roboto","Arial", sans-serif ;
@@ -8,11 +14,22 @@ body {
     outline: 2px solid #FF7500;
     outline-offset: 3px;
 }
+/* CONTAINER */
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-site-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 header {
   background-color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   border-top: 5px solid #FF7500;
   padding-bottom: 16px;
   padding-top: 16px;
@@ -84,11 +101,14 @@ header {
 .main-link :active {
     opacity: 0.6;
 }
-.coding-section {
-    background-color: #252420;
+.hero-container {
     align-items: center;
     justify-content: space-between; 
     display: flex;
+}
+.coding-section {
+    background-color: #252420;
+    margin-bottom: 20px;
 }
 .coding-div {
     width: 390px;
@@ -145,6 +165,7 @@ header {
     width: 100px;
     height: 100px;
     background-color: rgba(255, 117, 0, 0.2);
+    margin-bottom: 32px;
     border-radius: 50%;
 }
 .features {
@@ -155,6 +176,8 @@ header {
     margin-right: 0px;
 }
 .features-title {
+    margin-top: 0px;
+    margin-bottom: 12px;
     font-size: 24px;
     font-weight: 700;
     line-height: 120%;
@@ -163,12 +186,16 @@ header {
 .features-info {
     font-weight: 400;
     color: rgba(0, 0, 0, 1);
+    margin-top: 0px;
 }
-.section-books {
+.section-books-container {
+    background-color: rgba(37, 36, 32, 1);
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(37, 36, 32, 1);
+}
+.section-books {
     color: rgba(255, 255, 255, 1);
     border-radius: 12px;
 }
@@ -253,6 +280,12 @@ header {
     border: 0px;
     margin-top: 40px;
     margin-bottom: 64px;
+}
+.site-footer-div li {
+    margin-bottom: 16px;
+}
+.site-footer-div li :last-child {
+    margin nav-right: 0px;
 }
 .site-footer-links {
     list-style: none;
